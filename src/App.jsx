@@ -10,6 +10,7 @@ function App() {
     <div>
       <h1>HI Gokul</h1>
       <Home />
+      <div>hello</div>
     </div>
   )
 }
