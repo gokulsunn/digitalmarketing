@@ -1,18 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Home from './Home'
+import Header from "./component/Header";
+import Content from "./component/Content";
+import Assets from "./component/Assets";
+import Footer from "./component/Footer";
+import Benifits from "./component/Benifits";
+import Navbar from "./component/Navbar";
+import Slider from "./component/Slider";
+import Grids from "./component/Grid";
 
 function App() {
-
   return (
     <div>
-      <h1>HI Gokul</h1>
-      <Home />
-      <div>hello</div>
+      <Navbar />
+      <Header />
+      <Slider />
+      <Assets />
+      <Content />
+      <Grids />
+      <Benifits />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
