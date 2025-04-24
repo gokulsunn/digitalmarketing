@@ -14,7 +14,7 @@ const Header = () => {
         </p>
 
         <button className="mt-10 ml-0 sm:ml-10 lg:ml-0 text-white bg-gray-800 px-6 sm:px-10 py-3 sm:py-4 rounded-full mb-10 sm:mb-20">
-          Create my logo
+          Create a  logo
         </button>
       </div>
     </div>
