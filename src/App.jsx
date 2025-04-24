@@ -3,9 +3,9 @@ import Content from "./component/Content";
 import Assets from "./component/Assets";
 import Footer from "./component/Footer";
 import Benifits from "./component/Benifits";
+import Slider from "./Slider";
 import Navbar from "./component/Navbar";
-import Slider from "./component/Slider";
-import Grids from "./component/Grid";
+import Grid from "./component/Grid"
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Slider />
       <Assets />
       <Content />
-      <Grids />
+      <Grid />
       <Benifits />
       <Footer />
     </div>
